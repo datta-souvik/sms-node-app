@@ -1,0 +1,21 @@
+{
+  "name": "sms-project",
+  "version": "1.0.0",
+  "description": "SMS application",
+  "main": "app.js",
+  "scripts": {
+    "devstart": "nodemon app.js"
+  },
+  "author": "Souvik",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "fast-two-sms": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
